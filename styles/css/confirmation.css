@@ -1,0 +1,49 @@
+
+
+#confirmation-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#confirmation-container h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+  
+#confirmation-container p {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#confirmation-container a {
+    color: white;
+    font-size: 25px;
+}
+
+
+@media (max-width: 768px) {
+
+    #confirmation-container {
+        width: 60%;
+        margin-top: 20px;
+    }
+    
+    #confirmation-container h2 {
+        font-size: 30px;
+    }
+      
+    #confirmation-container p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    
+    #confirmation-container a {
+        color: white;
+        font-size: 20px;
+    }
+
+}

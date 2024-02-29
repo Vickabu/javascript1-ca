@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Hub | Home</title>
+  <meta name="description" content="The Universe Of Games">
+  <link rel="icon" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/css/styles.css">
+  <link rel="stylesheet" href="styles/css/index.css">
+  <script src="js/navigation.mjs" defer></script>
+  <script type="module" src="js/home.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">GameHub.</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Store</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+            </ul>
+            <div class="navcart">
+                <a href="/checkout/index.html" class="navcart-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="cart-icon" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
+                    </svg>
+                    <div id="cart-count">0</div>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>  
+        </nav>
+    </header>
+
+    <main>
+        <h1>Our universe of games:</h1>
+        <div class="filter-genre">
+            <button id="genre-all" class="filter-button">View all</button>
+            <button id="genre-action" class="filter-button">Action</button>
+            <button id="genre-adventure" class="filter-button">Adventure</button>
+            <button id="genre-horror" class="filter-button">Horror</button>
+            <button id="genre-sports" class="filter-button">Sports</button>
+        </div>
+       <div id="display-container"></div>
+
+    </main>
+
+    
+
+        
+    <footer>
+        <div class="foot-nav">
+            <a href="#" class="foot-link">Contact Us</a>
+            <a href="#" class="foot-link">About GameHub</a>
+            <a href="#" class="foot-link">Privacy Policy</a>
+        </div>
+    </footer>
+
+    
+
+
+    
+
+</body>
+</html>
